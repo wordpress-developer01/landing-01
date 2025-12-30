@@ -1,0 +1,54 @@
+# =====================
+# Node.js
+# =====================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =====================
+# Build outputs
+# =====================
+dist/
+build/
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
+
+# =====================
+# OS / IDE
+# =====================
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# =====================
+# Docker
+# =====================
+docker-data/
+postgres-data/
+
+# =====================
+# Coverage / tests
+# =====================
+coverage/
+
+# =====================
+# Misc
+# =====================
+*.tgz
+backend/node_modules/
+backend/.env
+backend/package.json
+backend/package-lock.json
