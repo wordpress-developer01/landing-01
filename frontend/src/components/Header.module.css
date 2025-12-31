@@ -7,13 +7,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 25px;
+  padding: 15px 50px;
   font-size: 15px;
 }
 
 .navbar {
   display: flex;
-  
 }
 
 .ul, .ul>li>a{
@@ -30,6 +29,14 @@
  color: white;
  padding: 8px 20px;
  border-radius: 45px;
+ margin-left: 15px;
+}
+
+.moon {
+  all: unset;
+  border-radius: 75%;
+  border: solid 1px;
+  padding: 5px;
 }
 
 

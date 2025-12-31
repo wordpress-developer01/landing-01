@@ -18,8 +18,8 @@ function Header() {
                     </ul>
                 </nav>
             </div>
-            <div className="button">
-                <button><img src={assets.moon_icon} alt="" /></button>
+            <div>
+                <button className={styles.moon}><img src={assets.moon_icon} alt="" /></button>
                 <button className={styles.btn}>Connect <img src={assets.arrow_icon} alt="arrow" /></button>
             </div>
         </header>
