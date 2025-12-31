@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
+
+:root {
+  --btn-bg: #5044e5;
+  --tw-gradient-from: #5044e5;
+  --tw-gradient-to: #4d8cea;
+}
+
 .App {
   text-align: center;
 }
