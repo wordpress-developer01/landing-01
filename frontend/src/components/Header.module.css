@@ -34,9 +34,11 @@
 
 .moon {
   all: unset;
-  border-radius: 50%;
+  border-radius: 100px;
   border: solid 1px;
-  padding: 5px;
+  width: 34px;
+  height: 34px;
+  text-align: center;
 }
 
 
