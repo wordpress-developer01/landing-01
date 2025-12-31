@@ -3,10 +3,16 @@
   --tw-gradient-from: #5044e5;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
   padding: 15px 50px;
   max-width: 1150px;
 }
@@ -29,7 +35,7 @@
  color: white;
  padding: 8px 20px;
  border-radius: 50px;
- margin-left: 15px;
+ margin: 0 0 0 20px;
 }
 
 .moon {
@@ -39,6 +45,10 @@
   width: 34px;
   height: 34px;
   text-align: center;
+}
+
+.btndiv {
+  display: flex;
 }
 
 
