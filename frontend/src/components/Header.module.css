@@ -8,7 +8,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 15px 50px;
-  font-size: 15px;
+  max-width: 1150px;
 }
 
 .navbar {
@@ -28,13 +28,13 @@
  background-color: var(--btn-bg);
  color: white;
  padding: 8px 20px;
- border-radius: 45px;
+ border-radius: 50px;
  margin-left: 15px;
 }
 
 .moon {
   all: unset;
-  border-radius: 75%;
+  border-radius: 50%;
   border: solid 1px;
   padding: 5px;
 }
