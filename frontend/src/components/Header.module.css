@@ -1,0 +1,38 @@
+:root {
+  --btn-bg: #5044e5;
+  --tw-gradient-from: #5044e5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  font-size: 15px;
+}
+
+.navbar {
+  display: flex;
+  
+}
+
+.ul, .ul>li>a{
+  display: flex;
+  margin: 0 0 0 15px;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.btn {
+ all: unset;
+ background-color: var(--btn-bg);
+ color: white;
+ padding: 8px 20px;
+ border-radius: 45px;
+}
+
+
+
+
+
