@@ -29,6 +29,14 @@ import google_logo from './google_logo.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
+import one from './one.png';
+import two from './two.png';
+import three from './three.png';
+import four from './four.png';
+import five from './five.png';
+import six from './six.png';
+import seven from './seven.png';
+import eight from './eight.png';
 
 
 export const company_logos = [
@@ -71,7 +79,15 @@ const assets = {
   rakuten_logo,
   coinbase_logo,
   airbnb_logo,
-  google_logo
+  google_logo,
+  one,
+  two,
+  three,
+  four,
+  five,
+  six,
+  seven,
+  eight
 }
 
 export default assets

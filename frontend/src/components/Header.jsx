@@ -20,7 +20,7 @@ function Header() {
             </div>
             <div className={styles.btndiv}>
                 <button className={styles.moon}><img src={assets.moon_icon} alt="" /></button>
-                <button className={styles.btn}>Connect <img src={assets.arrow_icon} alt="arrow" /></button>
+                <button className='btn'>Connect <img src={assets.arrow_icon} alt="arrow" /></button>
             </div>
         </header>
     </div>
