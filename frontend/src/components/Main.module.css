@@ -1,3 +1,8 @@
+:root {
+  --btn-bg: #5044e5;
+  --tw-gradient-from: #5044e5;
+}
+
 .group_div {
     display: flex;
     border: solid 1px;
@@ -14,6 +19,32 @@
 .center {
     max-width: 600px;
     margin: 0px auto;
+    text-align: center;
 }
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px auto;
+  text-align: center;
+}
+
+
+.display {
+    display: flex;
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.sectwo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0px auto;
+  text-align: center;
+  max-width: 600px;
+  font-size: small;
+}
+
 
 

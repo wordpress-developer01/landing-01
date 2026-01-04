@@ -20,7 +20,7 @@ export default function Main() {
          </div>
 
          <div>
-            <div>
+            <div className={styles.display}>
                 <img src={assets.microsoft_logo} alt="" />
                 <img src={assets.zoom_logo} alt="" />
                 <img src={assets.rakuten_logo} alt="" />
@@ -29,13 +29,13 @@ export default function Main() {
                 <img src={assets.google_logo} alt="" />
             </div>
 
-            <div>
+            <div className={styles.center}>
                 <h1>How can we help?</h1>
                 <p>From strategy to execution, we craft digital solutions that move your <br />
                  business forward.</p>
             </div>
 
-            <section>
+            <section className={styles.section}>
                 <div>
                     <div>
                         <img src={assets.ads_icon} alt="ads" />
@@ -79,22 +79,22 @@ export default function Main() {
                 </div>
             </section>
 
-            <div>
+            <div className={styles.center}>
                 <h1>Our latest work</h1>
                 <p>From strategy to execution, we craft digital solutions that move your <br />
                  business forward.</p>
             </div>
 
-            <div>
+            <div className={styles.center}>
                 <h1>Meet the team</h1>
                 <p>A passionate team of digital experts dedicated to your brands <br />
                  success.</p>
             </div>
 
-            <section>
+            <section className={styles.sectwo}>
                 <div>
                     <div>
-                        <img src={assets.one} alt="" />
+                        <img src={assets.one} alt="" width="100%"/>
                     </div>
                     <div>
                     <h5>Haley Carter</h5>
@@ -103,7 +103,7 @@ export default function Main() {
                 </div>
                 <div>
                     <div>
-                        <img src={assets.two} alt="" />
+                        <img src={assets.two} alt="" width="100%"/>
                     </div>
                     <div>
                     <h5>James Walker</h5>
@@ -112,7 +112,7 @@ export default function Main() {
                 </div>
                 <div>
                      <div>
-                        <img src={assets.three} alt="" />
+                        <img src={assets.three} alt="" width="100%"/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
@@ -121,7 +121,7 @@ export default function Main() {
                 </div>
                 <div>
                     <div>
-                        <img src={assets.four} alt="" />
+                        <img src={assets.four} alt="" width="100%"/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
@@ -130,7 +130,7 @@ export default function Main() {
                 </div>
                 <div>
                     <div>
-                        <img src={assets.five} alt="" />
+                        <img src={assets.five} alt="" width="100%"/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
@@ -139,7 +139,7 @@ export default function Main() {
                 </div>
                 <div>
                     <div>
-                        <img src={assets.six} alt="" />
+                        <img src={assets.six} alt="" width="100%"/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
@@ -148,7 +148,7 @@ export default function Main() {
                 </div>
                 <div>
                     <div>
-                        <img src={assets.seven} alt="" />
+                        <img src={assets.seven} alt="" width="100%"/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
@@ -157,7 +157,7 @@ export default function Main() {
                 </div>
                 <div>
                     <div>
-                        <img src={assets.eight} alt="" />
+                        <img src={assets.eight} alt="" width="100%"/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
@@ -166,16 +166,16 @@ export default function Main() {
                 </div>
             </section>
 
-            <div>
+            <div className={styles.center}>
                 <h1>Reach out to us</h1>
                 <p>From strategy to execution, we craft digital solutions that move your <br />
                  business forward.</p>
             </div>
 
             <form action="">
-                <input type="text" />
-                <input type="text" />
-                <input type="text" />
+                <input type="text" placeholder='enter your name'/>
+                <input type="email" placeholder='enter your email'/>
+                <textarea name="text" id="" cols="30" placeholder='enter your message'></textarea>
                 <button className='btn'>Submit</button>
             </form>
 
