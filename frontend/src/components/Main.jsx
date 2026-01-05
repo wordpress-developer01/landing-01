@@ -92,19 +92,19 @@ export default function Main() {
             <div className={styles.displayo}>
                 <div>
                     <img src={assets.work_dashboard_management} alt="dashboard" width="100%" />
-                    <h5>Dashboard management</h5>
+                    <h3>Dashboard management</h3>
                     <p>We help you execute your plan and <br /> deliver results.</p>
                 </div>
                 <div>
                     <img src={assets.work_mobile_app} alt="mobile"  width="100%"/>
-                    <h5>Mobile app marketing</h5>
+                    <h3>Mobile app marketing</h3>
                     <p>We turn bold ideas into powerful <br />
                      digital solutions that connect, <br />
                       engage...</p>
                 </div>
                 <div>
                     <img src={assets.work_fitness_app} alt="fitness" width="100%" />
-                    <h5>Fitness app promotion</h5>
+                    <h3>Fitness app promotion</h3>
                     <p>We help you create a marketing <br />
                      strategy that drives results.</p>
                 </div>
