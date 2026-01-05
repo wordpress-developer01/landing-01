@@ -12,21 +12,25 @@ export default function Main() {
          </div>
 
          <div className={styles.center}>
-            <h1>Turning imagination into <br /> <span>digital</span> impact.</h1>
+            <div className={styles.info_hero}>
+            <h1>Turning imagination into <br /> <span className={styles.gr}>digital</span> impact.</h1>
+            </div>
+            <div className={styles.info_two}>
             <p>Creating meaningful connections and turning big ideas into <br />
              interactive digital experiences.</p>
+             </div>
              <img src={assets.hero_img} alt="hero img"  width="100%"/>
              <p>Trusted by Leading Companies</p>
          </div>
 
          <div>
-            <div className={styles.display}>
-                <img src={assets.microsoft_logo} alt="" />
-                <img src={assets.zoom_logo} alt="" />
-                <img src={assets.rakuten_logo} alt="" />
-                <img src={assets.coinbase_logo} alt="" />
-                <img src={assets.airbnb_logo} alt="" />
-                <img src={assets.google_logo} alt="" />
+            <div className={styles.displayo}>
+                <img src={assets.microsoft_logo} alt="" width="100%" />
+                <img src={assets.zoom_logo} alt="" width="100%"/>
+                <img src={assets.rakuten_logo} alt="" width="100%"/>
+                <img src={assets.coinbase_logo} alt="" width="100%"/>
+                <img src={assets.airbnb_logo} alt="" width="100%"/>
+                <img src={assets.google_logo} alt="" width="100%"/>
             </div>
 
             <div className={styles.center}>
@@ -36,7 +40,7 @@ export default function Main() {
             </div>
 
             <section className={styles.section}>
-                <div>
+                <div className={styles.display}>
                     <div>
                         <img src={assets.ads_icon} alt="ads" />
                     </div>
@@ -46,7 +50,7 @@ export default function Main() {
                      solutions that connect, engage...</p>
                     </div>
                 </div>
-                <div>
+                <div className={styles.display}>
                     <div>
                         <img src={assets.content_icon} alt="" />
                     </div>
@@ -56,7 +60,7 @@ export default function Main() {
                      strategy that drives results.</p>
                      </div>
                 </div>
-                <div>
+                <div className={styles.display}>
                     <div>
                         <img src={assets.marketing_icon} alt="" />
                     </div>
@@ -66,7 +70,7 @@ export default function Main() {
                      deliver results.</p>
                      </div>
                 </div>
-                <div>
+                <div className={styles.display}>
                     <div>
                       <img src={assets.social_icon} alt="" />
                     </div>
@@ -85,6 +89,27 @@ export default function Main() {
                  business forward.</p>
             </div>
 
+            <div className={styles.displayo}>
+                <div>
+                    <img src={assets.work_dashboard_management} alt="dashboard" width="100%" />
+                    <h5>Dashboard management</h5>
+                    <p>We help you execute your plan and <br /> deliver results.</p>
+                </div>
+                <div>
+                    <img src={assets.work_mobile_app} alt="mobile"  width="100%"/>
+                    <h5>Mobile app marketing</h5>
+                    <p>We turn bold ideas into powerful <br />
+                     digital solutions that connect, <br />
+                      engage...</p>
+                </div>
+                <div>
+                    <img src={assets.work_fitness_app} alt="fitness" width="100%" />
+                    <h5>Fitness app promotion</h5>
+                    <p>We help you create a marketing <br />
+                     strategy that drives results.</p>
+                </div>
+            </div>
+
             <div className={styles.center}>
                 <h1>Meet the team</h1>
                 <p>A passionate team of digital experts dedicated to your brands <br />
@@ -92,72 +117,72 @@ export default function Main() {
             </div>
 
             <section className={styles.sectwo}>
-                <div>
-                    <div>
-                        <img src={assets.one} alt="" width="100%"/>
+                <div className={styles.cardform}>
+                    <div className={styles.divimg}>
+                        <img className={styles.imgclass} src={assets.one} alt=""/>
                     </div>
                     <div>
                     <h5>Haley Carter</h5>
                      <p>CEO & founder</p>
                     </div> 
                 </div>
-                <div>
-                    <div>
-                        <img src={assets.two} alt="" width="100%"/>
+                <div className={styles.cardform}>
+                    <div className={styles.divimg}>
+                        <img className={styles.imgclass} src={assets.two} alt=""/>
                     </div>
                     <div>
                     <h5>James Walker</h5>
                      <p>Ads manager</p>
                     </div> 
                 </div>
-                <div>
-                     <div>
-                        <img src={assets.three} alt="" width="100%"/>
+                <div className={styles.cardform}>
+                     <div className={styles.divimg}>
+                        <img className={styles.imgclass} src={assets.three} alt=""/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
                      <p>Vice president</p>
                     </div> 
                 </div>
-                <div>
-                    <div>
-                        <img src={assets.four} alt="" width="100%"/>
+                <div className={styles.cardform}>
+                    <div className={styles.divimg}>
+                        <img className={styles.imgclass} src={assets.four} alt=""/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
                      <p>Vice president</p>
                     </div> 
                 </div>
-                <div>
-                    <div>
-                        <img src={assets.five} alt="" width="100%"/>
+                <div className={styles.cardform}>
+                    <div className={styles.divimg}>
+                        <img className={styles.imgclass} src={assets.five} alt=""/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
                      <p>Vice president</p>
                     </div> 
                 </div>
-                <div>
-                    <div>
-                        <img src={assets.six} alt="" width="100%"/>
+                <div className={styles.cardform}>
+                    <div className={styles.divimg}>
+                        <img className={styles.imgclass} src={assets.six} alt=""/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
                      <p>Vice president</p>
                     </div> 
                 </div>
-                <div>
-                    <div>
-                        <img src={assets.seven} alt="" width="100%"/>
+                <div className={styles.cardform}>
+                    <div className={styles.divimg}>
+                        <img className={styles.imgclass} src={assets.seven} alt=""/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
                      <p>Vice president</p>
                     </div> 
                 </div>
-                <div>
-                    <div>
-                        <img src={assets.eight} alt="" width="100%"/>
+                <div className={styles.cardform}>
+                    <div className={styles.divimg}>
+                        <img className={styles.imgclass} src={assets.eight} alt=""/>
                     </div>
                     <div>
                     <h5>Jessica Morgan</h5>
@@ -171,13 +196,18 @@ export default function Main() {
                 <p>From strategy to execution, we craft digital solutions that move your <br />
                  business forward.</p>
             </div>
-
-            <form action="">
-                <input type="text" placeholder='enter your name'/>
-                <input type="email" placeholder='enter your email'/>
-                <textarea name="text" id="" cols="30" placeholder='enter your message'></textarea>
+            
+            <div className={styles.form}>
+            <form action=''>
+                <label htmlFor="Your name">Your name  </label> 
+                <input className={styles.input} type="text" placeholder='enter your name'/> <br />
+                <label htmlFor="Your email">Your email  </label> 
+                <input className={styles.input} type="email" placeholder='enter your email'/> <br/>
+                <label htmlFor="your message">your mess </label>
+                <textarea className={styles.input} name="text" id="" cols="30" placeholder='enter your message'></textarea>
                 <button className='btn'>Submit</button>
             </form>
+            </div>
 
 
          </div>

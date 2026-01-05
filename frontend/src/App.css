@@ -9,6 +9,7 @@
 
 * {
   font-family: 'Manrope', sans-serif;
+  font-weight: 500;
 }
 
 .btn {
@@ -18,6 +19,11 @@
  padding: 8px 20px;
  border-radius: 50px;
  margin: 0 0 0 20px;
+ cursor: pointer;
+}
+
+.body {
+  background-image: url('./assets/bgImage1.png');
 }
 
 

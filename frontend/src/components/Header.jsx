@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 
 function Header() {
   return (
-    <div>
+    <div className={styles.mhead}>
         <header className={styles.header}>
             <div className="logo"> 
                 <img src={assets.logo} alt="logo" />
@@ -19,7 +19,7 @@ function Header() {
                 </nav>
             </div>
             <div className={styles.btndiv}>
-                <button className={styles.moon}><img src={assets.moon_icon} alt="" /></button>
+                <button className={styles.moon}><img src={assets.moon_icon} alt="moon button" /></button>
                 <button className='btn'>Connect <img src={assets.arrow_icon} alt="arrow" /></button>
             </div>
         </header>
