@@ -198,15 +198,40 @@ export default function Main() {
             </div>
             
             <div className={styles.form}>
-            <form action=''>
-                <label htmlFor="Your name">Your name  </label> 
-                <input className={styles.input} type="text" placeholder='enter your name'/> <br />
-                <label htmlFor="Your email">Your email  </label> 
-                <input className={styles.input} type="email" placeholder='enter your email'/> <br/>
-                <label htmlFor="your message">your mess </label>
-                <textarea className={styles.input} name="text" id="" cols="30" placeholder='enter your message'></textarea>
-                <button className='btn'>Submit</button>
-            </form>
+            <form method="POST" action="http://localhost:3000/send">
+  <label htmlFor="name">Your name</label>
+  <input
+    className={styles.input}
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Enter your name"
+    required
+  />
+
+  <label htmlFor="email">Your email</label>
+  <input
+    className={styles.input}
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Enter your email"
+    required
+  />
+
+  <label htmlFor="message">Your message</label>
+  <textarea
+    className={styles.input}
+    id="message"
+    name="message"
+    cols="30"
+    placeholder="Enter your message"
+    required
+  ></textarea>
+
+  <button className="btn" type="submit">Submit</button>
+</form>
+
             </div>
 
 
